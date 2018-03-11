@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DiceProbability", "DiceProbability\DiceProbability.vbproj", "{97366244-EB81-4529-8F59-B51A1D827FAC}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DiceWebsite", "DiceProbabiity\DiceWebsite.vbproj", "{5ABC895E-14FF-4F8F-9FFC-7CE41EA48374}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DiceLibrary", "DiceLibrary\DiceLibrary.vbproj", "{AE30B40D-57A6-48D4-8C2B-BBFF2C76037E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{97366244-EB81-4529-8F59-B51A1D827FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97366244-EB81-4529-8F59-B51A1D827FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97366244-EB81-4529-8F59-B51A1D827FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABC895E-14FF-4F8F-9FFC-7CE41EA48374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABC895E-14FF-4F8F-9FFC-7CE41EA48374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABC895E-14FF-4F8F-9FFC-7CE41EA48374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABC895E-14FF-4F8F-9FFC-7CE41EA48374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE30B40D-57A6-48D4-8C2B-BBFF2C76037E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE30B40D-57A6-48D4-8C2B-BBFF2C76037E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE30B40D-57A6-48D4-8C2B-BBFF2C76037E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE30B40D-57A6-48D4-8C2B-BBFF2C76037E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
