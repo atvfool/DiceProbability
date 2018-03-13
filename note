@@ -1,0 +1,20 @@
+MathNet.Numerics, < - Search on Github
+
+
+Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+		Dim intMinHits As Integer = 0
+		Dim intDice As Integer = 0
+		Dim decTarget As Decimal = 0
+
+		If Integer.TryParse(txtMinHits.Text, intMinHits) AndAlso Integer.TryParse(txtNumDice.Text, intDice) AndAlso Decimal.TryParse(txtTarget.Text, decTarget) Then
+			'intMinHits -= 1
+			decTarget = 1 - (decTarget - 1) / 6
+			'Dim rand As New System.Random
+
+
+			Dim bn As New MathNet.Numerics.Distributions.Binomial(decTarget, intDice)
+
+			txtResult.Text = 1 - bn.CumulativeDistribution(intMinHits)
+
+		End If
+	End Sub
